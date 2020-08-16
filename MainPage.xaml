@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="HASS_Widget.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HASS_Widget"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Center" Margin="37,0,0,0" Height="915" Width="1421" >
+        <TextBlock Text="HASS Endpoint" Padding="10,5,0,5" Margin="64,113,1181,758" FontSize="20"/>
+        <Button x:Name="myButton" Click="MyButton_Click" Content="SAVE" Height="45" Width="594" Margin="370,801,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.033,12.036"/>
+        <TextBox Text="None" Name="apiEndpoint" TextWrapping="Wrap" RenderTransformOrigin="-2.945,0.688" Margin="274,114,330,760"/>
+        <TextBox Text="None" Name="apiToken" TextWrapping="Wrap" RenderTransformOrigin="-2.945,0.688" Margin="274,202,330,672"/>
+        <TextBlock Padding="10,5,0,5" Margin="64,204,1181,667" FontSize="20"><Run Text="HASS "/><Run Text="API Token"/></TextBlock>
+        <TextBlock Padding="10,5,0,5" Margin="64,309,1181,562" FontSize="20"><Run Text="HASS "/><Run Text="Devices"/></TextBlock>
+        <TextBox Text="None" x:Name="apiDevice1" TextWrapping="Wrap" RenderTransformOrigin="-2.945,0.688" Margin="274,315,330,559"/>
+        <TextBox Text="None" x:Name="apiDevice2" TextWrapping="Wrap" RenderTransformOrigin="-2.945,0.688" Margin="274,377,330,497"/>
+        <TextBox Text="None" x:Name="apiDevice3" TextWrapping="Wrap" RenderTransformOrigin="-2.945,0.688" Margin="274,437,330,437"/>
+        <TextBox Text="None" x:Name="apiDevice4" TextWrapping="Wrap" RenderTransformOrigin="-2.945,0.688" Margin="274,500,330,374"/>
+        <TextBox Text="None" x:Name="apiDevice5" TextWrapping="Wrap" RenderTransformOrigin="-2.945,0.688" Margin="274,562,330,312"/>
+    </Grid>
+</Page>
